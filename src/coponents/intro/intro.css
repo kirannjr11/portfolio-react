@@ -16,12 +16,24 @@ justify-content: center;
 }
 .i-left-wrapper{
     padding:50px;
-    height: 50%;
+    height: 70%;
     /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.btncv{
+    height: 8%;
+    width: 30%;
+    
+}
+.btncv a{
+    color:black;
+   font-weight: 700;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: none;
+ }
 .i-intro{
     font-size: 30px;
     font-weight: 300;
@@ -118,4 +130,10 @@ justify-content: center;
         height: 400px;
     }
     
+    
+}
+@media screen and (max-width:1300px) {
+    .btncv a {
+        font-size: 10px;
+    }
 }

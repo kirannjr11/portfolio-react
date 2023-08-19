@@ -24,7 +24,7 @@ const Intro = () => {
 
 
                         </p>
-            
+                    <button class="btncv"><a href="./images/kiran_ghale_CV.pdf">Download CV</a></button>
                 </div>
                 {/* <svg 
                     width="75"
